@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Python</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #f0f0f0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Learning Python!</h1>
+        <nav>
+            <ul>
+                <li><a href="#basics">Basics</a></li>
+                <li><a href="#loops">Loops</a></li>
+                <li><a href="#functions">Functions</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="basics">
+            <h2>Python Basics</h2>
+            <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+            <p>It is used for:</p>
+            <ul>
+                <li>web development (server-side),</li>
+                <li>software development,</li>
+                <li>mathematics,</li>
+                <li>system scripting.</li>
+            </ul>
+
+            <h4>What can Python do?</h4>
+            <ul>
+                <li>Python can be used on a server to create web applications.</li>
+                <li>Python can be used alongside software to create workflows.</li>
+                <li>Python can connect to database systems. It can also read and modify files.</li>
+                <li>Python can be used to handle big data and perform complex mathematics.</li>
+                <li>Python can be used for rapid prototyping, or for production-ready software development.</li>
+            </ul>
+
+            <h4>Why Python?</h4>
+
+            <ul>
+                <li>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).</li>
+                <li>Python has a simple syntax similar to the English language.</li>
+                <li>Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</li>
+                <li>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.</li>
+                <li>Python can be treated in a procedural way, an object-oriented way or a functional way.</li>
+            </ul>
+        </section>
+        
+        <section id="loops">
+            <h2>Loops in Python</h2>
+            <p>In Python, loops are used to execute a block of code repeatedly. There are two main types of loops: the <code>for</code> loop and the <code>while</code> loop.</p>
+            
+            <h3>For Loop</h3>
+            <p>The <code>for</code> loop is used to iterate over a sequence (list, tuple, string, etc.) or other iterable objects. It executes a block of code for each item in the sequence.</p>
+            
+            <p>Example:</p>
+            <pre><code>fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)</code></pre>
+            
+            <h3>While Loop</h3>
+            <p>The <code>while</code> loop repeats a block of code as long as a specified condition is true.</p>
+            
+            <p>Example:</p>
+            <pre><code>i = 0
+while i < 5:
+    print(i)
+    i += 1</code></pre>
+            
+            <p>Loops are essential for iterating through data, performing repetitive tasks, and implementing conditional logic in Python.</p>
+        </section>
+        
+        <section id="functions">
+            <h2>Functions in Python</h2>
+            <p>A function in Python is a block of reusable code that performs a specific task. It allows you to organize code into manageable and reusable parts.</p>
+            
+            <p>To define a function in Python, you can use the <code>def</code> keyword followed by the function name and parameters (if any).</p>
+            
+            <p>Example:</p>
+            <pre><code>def greet(name):
+    print("Hello, " + name)
+
+greet("Alice")</code></pre>
+            
+            <p>Functions can take parameters, return values, and be called multiple times throughout your program. They enhance code readability and maintainability.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 YourWebsite.com</p>
+    </footer>
+</body>
+</html>
